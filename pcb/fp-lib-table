@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "tower")(type "KiCad")(uri "${KIPRJMOD}/tower.pretty")(options "")(descr "Project footprints"))
+)

@@ -1,0 +1,5 @@
+(version 1)
+# Ground pads that are also connected by a track may have a single pour spoke.
+(rule "gnd_single_spoke"
+	(condition "A.NetName == '/GND'")
+	(constraint min_resolved_spokes 1))
